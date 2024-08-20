@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 /* salfe make utilities */
-@layer utilities{
-
+@layer utilities {
+  .head-font {
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+  }
 }
 /* tailwind component */
-@layer components{
-
+@layer components {
 }
